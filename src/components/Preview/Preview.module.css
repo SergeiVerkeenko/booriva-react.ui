@@ -1,0 +1,27 @@
+.wrapper .img-womens {
+    background-image: url(./assets/новинки.svg);
+    width: 1140px;
+    height: 502px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+.wrapper .new-coll {
+  background-image: url(./assets/baner\ \(1\).svg);
+    width: 1140px;
+    height: 502px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.wrapper .store{
+    background-image: url(./assets/открытая\ дверь.png);
+    width: 1000px;
+    height: 770px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}

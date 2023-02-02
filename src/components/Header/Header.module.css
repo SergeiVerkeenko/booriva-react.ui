@@ -1,0 +1,46 @@
+.wrapper {
+    padding: 15px 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(./assets/logo\ \(1\).svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.bascet {
+    background-image: url(./assets/сумочка.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.wrapper nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.wrapper nav p {
+    width: 10%;
+    font: 600 16px 'Montserrat';
+    color: #1F1F1F;
+}
+
+.wrapper nav p:hover {
+    color: #FDA3C4;
+    cursor: pointer;
+}
