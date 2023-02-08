@@ -5,23 +5,100 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
+    position: relative;
 }
 
 
 .wrapper .new-coll {
-  background-image: url(./assets/baner\ \(1\).svg);
+    background-image: url(./assets/baner\ \(1\).svg);
     width: 1140px;
     height: 502px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 140px auto auto auto;
 }
 
-.wrapper .store{
+.wrapper .store {
     background-image: url(./assets/открытая\ дверь.png);
     width: 1000px;
     height: 770px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
+}
+
+.price {
+    display: flex;
+    width: 1140px;
+    margin: 450px auto auto 90px;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+}
+
+.price p {
+    font: 400 24px 'Montserrat';
+    color: #FDA3C4;
+}
+
+.caption {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.caption p {
+    width: 212px;
+    height: 36px;
+    font: 400 16px 'Montserrat';
+    color: #1F1F1F;
+}
+
+.section-advertising {
+    display: flex;
+    margin: 170px auto auto auto;
+    justify-content: space-evenly;
+}
+
+.section {
+    display: flex;
+}
+
+.kat {
+    width: 75px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/кошка\ 1.svg);
+}
+
+.section h1 {
+    width: 220px;
+    font: 600 25px 'Montserrat';
+    text-align: center;
+    color: #1F1F1F;
+}
+
+.section p {
+    font: 400 16px 'Montserrat';
+    text-align: center;
+    color: #1F1F1F;
+    margin: auto;
+}
+
+.wings {
+    width: 75px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/крылья\ 2.svg);
+}
+
+.heart {
+    width: 75px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/сердце\ 3.svg);
 }

@@ -6,7 +6,7 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<PreviewPage></PreviewPage>}></Route>
-      <Route path='/' element={<NotFoundPage></NotFoundPage>}></Route>
+      <Route path='/not' element={<NotFoundPage></NotFoundPage>}></Route>
     </Routes >
   );
 }
