@@ -1,16 +1,21 @@
 import style from './Footer.module.css'
+import NavItem from './NavItem'
 
 function Footer() {
+    let arr = [
+        'Контакты',
+        'Система лояльности',
+        'Обмен и возврат',
+        'Доставка и оплата',
+    ]
     return (
+
         <div className={style['wrapper']}>
             <div className={style['logo']}>
             </div>
             <nav>
 
-                <p>Контакты</p>
-                <p>Система лояльности</p>
-                <p>Обмен и возврат</p>
-                <p>Доставка и оплата</p>
+                {arr.map((el, index) => <NavItem key={index} name={el} />)}
             </nav>
         </div>
     )

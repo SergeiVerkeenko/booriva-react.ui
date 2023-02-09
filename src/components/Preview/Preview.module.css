@@ -55,7 +55,7 @@
     color: #1F1F1F;
 }
 
-.section-advertising {
+.advertages {
     display: flex;
     margin: 170px auto auto auto;
     justify-content: space-evenly;
@@ -65,7 +65,7 @@
     display: flex;
 }
 
-.kat {
+.image-1 {
     width: 75px;
     height: 70px;
     background-size: contain;
@@ -73,21 +73,21 @@
     background-image: url(./assets/кошка\ 1.svg);
 }
 
-.section h1 {
+.paragraf h1 {
     width: 220px;
     font: 600 25px 'Montserrat';
     text-align: center;
     color: #1F1F1F;
 }
 
-.section p {
+.paragraf p {
     font: 400 16px 'Montserrat';
     text-align: center;
     color: #1F1F1F;
     margin: auto;
 }
 
-.wings {
+.image-2  {
     width: 75px;
     height: 70px;
     background-size: contain;
@@ -95,7 +95,7 @@
     background-image: url(./assets/крылья\ 2.svg);
 }
 
-.heart {
+.image-3  {
     width: 75px;
     height: 70px;
     background-size: contain;

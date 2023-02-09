@@ -1,18 +1,83 @@
-import style from './Footer.module.css'
+import style from './Category.module.css'
 
-function Footer() {
+function Category() {
     return (
-        <div className={style['wrapper']}>
-            <div className={style['logo']}>
-            </div>
-            <nav>
+        <>
+            <div className={style['boorivia-store']}> </div>
+            <div className={style['line-shop']}>
 
-                <p>Контакты</p>
-                <p>Система лояльности</p>
-                <p>Обмен и возврат</p>
-                <p>Доставка и оплата</p>
-            </nav>
-        </div>
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+            </div>
+            <div className={style['line-shop']}>
+
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+            </div>
+            <div className={style['line-shop']}>
+
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+                <div className={style['block-kor']}>
+                    <div className={style['gerl']}>
+                        <div className={style['like']}></div>
+                    </div>
+                    <hr></hr>
+                    <div className={style['title-flex']}>
+                        <h1>Платье прозрачное в цветочек чёрное</h1>
+                        <p>1 299 ₴</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </>
+
     )
 }
-export default Footer
+export default Category
