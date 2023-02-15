@@ -7,21 +7,27 @@
     margin: 47px auto auto auto;
 }
 
+.products-wrapper{
+    display: grid;
+    grid-template-columns: 466px 466px;
+    grid-template-rows: repeat(auto-fit, minmax(600px));
+    grid-gap: 30px;
+    justify-content: center;
+}
+
 .line-shop {
     display: flex;
 }
 
-.block-kor {
+.block {
     margin: 80px auto auto auto;
 }
 
-.gerl {
-    background-image: url(./assets/девушка.png);
+.img {
     background-size: contain;
     background-repeat: no-repeat;
     width: 456px;
     height: 500px;
-    position: relative;
 }
 
 hr {
@@ -57,5 +63,10 @@ hr {
     height: 26px;
     position: absolute;
     z-index: 1;
-    margin: 25px 0 0 400px;
+    top: 0;
+    right: 10%;
+}
+
+.block-image {
+    position: relative;
 }

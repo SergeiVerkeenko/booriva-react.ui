@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import PreviewPage from "./pages/PreviewPage/PreviewPage";
+import BasketPage from "./pages/BasketPage/BasketPage";
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<PreviewPage></PreviewPage>}></Route>
-      <Route path='*' element={<NotFoundPage></NotFoundPage>}></Route>
+      <Route path='/' element={<PreviewPage />}></Route >
+      <Route path='products' element={<ProductsPage />}></Route>
+      <Route path='basket' element={<BasketPage />}></Route>
     </Routes >
   );
 }

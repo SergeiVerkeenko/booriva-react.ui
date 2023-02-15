@@ -46,7 +46,7 @@ function Preview() {
 
             <div className={style['advertages']}>
 
-                {advantages.map((el) => <PreviewItem key={el.id} image={el.image} paragraph={el.paragraph} logo={el.logo} />)}
+                {advantages.map((el) => <PreviewItem key={el.id6} image={el.image} paragraph={el.paragraph} logo={el.logo} />)}
 
             </div>
         </div>
