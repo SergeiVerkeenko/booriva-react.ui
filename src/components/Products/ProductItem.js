@@ -1,10 +1,12 @@
 import style from './Products.module.css'
 import basket from '../../context/basket'
 
-function ProductItem({ name, price, path }) {
+function ProductItem({ id, name, price, path }) {
+
     function addToBasket() {
-        basket.push({ name, price, path })
-        console.log(basket);
+        const keys = basket.map(el => el.id)
+        if (!keys.includes(id)) basket.push({ id, name, price, path })
+      
     }
 
     return (
