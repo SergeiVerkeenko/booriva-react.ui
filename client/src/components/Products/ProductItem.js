@@ -6,7 +6,7 @@ function ProductItem({ id, name, price, path }) {
     function addToBasket() {
         const keys = basket.map(el => el.id)
         if (!keys.includes(id)) basket.push({ id, name, price, path })
-      
+
     }
 
     return (
@@ -15,7 +15,7 @@ function ProductItem({ id, name, price, path }) {
 
                 <div className={style['block']}>
                     <div className={style["block-image"]} >
-                        <img alt={name} className={style['img']} src={require(`../../storage/assets/${path}`)}></img>
+                        <img alt={name} className={style['img']} ></img>
                         <div onClick={addToBasket} className={style['like']}></div>
                     </div>
                     <hr></hr>
